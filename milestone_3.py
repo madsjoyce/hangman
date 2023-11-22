@@ -28,4 +28,3 @@ def ask_for_input():
 
 # Step 4: Call the ask_for_input function to test the code
 ask_for_input()
-    
