@@ -1,5 +1,13 @@
 def check_guess(guess):
-    """Check if the guessed letter is in the word."""
+    """
+    Checks if the guessed letter is present in the randomly selected word.
+
+    Parameters:
+    - guess (str): The player's guess, which is converted to lowercase.
+
+    Returns:
+    - bool: True if the guess is correct, False otherwise.
+    """
     # Step 2: Convert the guess into lowercase
     guess = guess.lower()
 
@@ -12,7 +20,12 @@ def check_guess(guess):
         return False
 
 def ask_for_input():
-    """Ask the user to guess a letter."""
+    """
+        Ask the user to guess a letter.
+         Returns: - None: Breaks out of the loop if a valid single alphabetical character is entered.
+      Otherwise, prints an error message and continues the loop.
+    """
+
     while True:
         # Step 2: Move the code for asking the user to guess a letter
         guess = input('Guess a letter: ')
