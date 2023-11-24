@@ -15,7 +15,20 @@ The aim of this project is to develop my skills with python and GitHub by creati
 
 
 ### 3. Usage Instructions
+- **Step 1. Clone the repository to your machine.** 
+     - Enter: 'git clone https://github.com/madsjoyce/hangman.git' into your terminal.
+- **Step 2. Navigate to the project directory.**
+    - Enter: 'cd Hangman' into your terminal
 
+- **Step 3. Run the Hangman game.**
+    - ```python hangman.py```
+- **Step 4. Follow the onscreen instructions to guess the letter and play the game.**
+    - ```python 
+        # Import play_game from hangman
+        from hangman import play_game
+        # Play the Hangman game
+        play_game(word_list)
+- **Step 5. Have fun!**
 
 ### 4. File Structure of the Project
 The project has been made up of multiple python files named milstone_(x).py which contain the code for specific features of the project.
