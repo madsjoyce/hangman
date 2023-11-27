@@ -17,12 +17,12 @@ In thie project, I have developed my skills in OOP, creating methds/functions an
 
 ### 2. Installation Instructions
 - **Step 1. Clone the repository to your machine.** 
-     - Enter: 'git clone https://github.com/madsjoyce/hangman.git' into your terminal.
+     - Enter: ```git clone https://github.com/madsjoyce/hangman.git ```into your terminal.
 - **Step 2. Navigate to the project directory.**
-    - Enter: 'cd Hangman' into your terminal
+    - Enter: ```cd Hangman``` into your terminal.
 
 - **Step 3. Run the Hangman game.**
-    - ```python hangman.py```
+    - `Enter: ```python hangman.py``` into your terminal.
 - **Step 4. Follow the onscreen instructions to guess the letter and play the game.**
     - ```python 
         # Import play_game from hangman
