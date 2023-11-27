@@ -1,5 +1,7 @@
 # <ins> HANGMAN PROJECT
 
+![Picture of Hangman.](https://cms-assets.tutsplus.com/cdn-cgi/image/width=360/uploads/users/211/posts/23041/final_image/hangmancapture.gif)
+
 ## Table of Contents 
 1. Description of the Project
 2. Installation Instructions
@@ -11,10 +13,9 @@
 
 The aim of this project is to develop my skills with python and GitHub by creating an implimentation of the classic game of Hangman. Instead of the game being played between two humans, here the *computer* thinks of a word and the user tries to guess it.
 
+In thie project, I have developed my skills in OOP, creating methds/functions and improved my understanding of GitHub and local repositories.
+
 ### 2. Installation Instructions
-
-
-### 3. Usage Instructions
 - **Step 1. Clone the repository to your machine.** 
      - Enter: 'git clone https://github.com/madsjoyce/hangman.git' into your terminal.
 - **Step 2. Navigate to the project directory.**
@@ -28,11 +29,14 @@ The aim of this project is to develop my skills with python and GitHub by creati
         from hangman import play_game
         # Play the Hangman game
         play_game(word_list)
-- **Step 5. Have fun!**
+- **Step 5. Have fun!** 🤩
+
+### 3. Usage Instructions
+You will be given 5 lives in this game, to guess the word that the computer is thinking of. You will need to follow the instructions as the game goes on. 
 
 ### 4. File Structure of the Project
 The project has been made up of multiple python files named milstone_(x).py which contain the code for specific features of the project.
-- **Milestone 1:** This was not actually a file, rather this was the stage at which I set up my GitHub repository so that I could save my work remotely.
+- **Milestone 1:** was not actually a file, rather this was the stage at which I set up my GitHub repository so that I could save my work remotely.
 
 - **Milestone 2:** contains the code that set up the variables for the game. This included defining the list of possible words, randomising which word the computer chooses to play with, and asking the player to input a single-charactered guess.
 
