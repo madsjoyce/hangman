@@ -43,7 +43,7 @@ class Hangman:
     def update_word_guessed(self, guess):
         """
         Updates the word_guessed attribute based on the correct guesses.
-
+        
         Parameters:
         - guess: The letter guessed by the player.
         """
