@@ -13,18 +13,18 @@
 
 The aim of this project is to develop my skills with python and GitHub by creating an implimentation of the classic game of Hangman. Instead of the game being played between two humans, here the *computer* thinks of a word and the user tries to guess it.
 
-In thie project, I have developed my skills in OOP, creating methds/functions and improved my understanding of GitHub and local repositories.
+In thie project, I have developed my skills in OOP, creating methods/functions and improved my understanding of GitHub and local repositories.
 
 ### 2. Installation Instructions
 - **Step 1. Clone the repository to your machine.** 
      - Enter: ```git clone https://github.com/madsjoyce/hangman.git ```into your terminal.
 - **Step 2. Navigate to the project directory.**
-    - Enter: ```cd Hangman``` into your terminal.
+     - Enter: ```cd Hangman``` into your terminal.
 
 - **Step 3. Run the Hangman game.**
-    - Enter: ```python hangman.py``` into your terminal.
+     - Enter: ```python hangman.py``` into your terminal.
 - **Step 4. Follow the onscreen instructions to guess the letter and play the game.**
-    - ```python 
+     - ```python 
         # Import play_game from hangman
         from hangman import play_game
         # Play the Hangman game
