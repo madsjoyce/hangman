@@ -22,7 +22,7 @@ In thie project, I have developed my skills in OOP, creating methds/functions an
     - Enter: ```cd Hangman``` into your terminal.
 
 - **Step 3. Run the Hangman game.**
-    - `Enter: ```python hangman.py``` into your terminal.
+    - Enter: ```python hangman.py``` into your terminal.
 - **Step 4. Follow the onscreen instructions to guess the letter and play the game.**
     - ```python 
         # Import play_game from hangman
