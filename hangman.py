@@ -29,7 +29,7 @@ class Hangman:
 
     def pick_new_word(self):
         '''
-        Picks a new word for the game and initialises game-related attributes.
+        Picks a new word for the game.
         '''
         self.word = random.choice(self.word_list)
         self.word_guessed = ['_'] * len(self.word)
@@ -38,13 +38,13 @@ class Hangman:
 
     def display_word_guessed(self):
         '''
-        Displays the current state of the guessed word.
+        Displays what letters you have and haven't guessed right within the selected word
         '''
         print("Word guessed so far:", ' '.join(self.word_guessed))
 
     def update_word_guessed(self, guess):
         '''
-        Updates the word_guessed attribute based on the correct guesses.
+        Updates word_guessed based on the correct guesses.
         
         Parameteres:
         - guess: The letter guessed by the player.
