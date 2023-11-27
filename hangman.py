@@ -1,5 +1,7 @@
 import random
 
+word_list = ['apple', 'banana', 'cherry', 'peach', 'mango']
+
 class Hangman:
     ''' 
     The Hangman Class represents the game of Hangman.
