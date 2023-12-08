@@ -1,7 +1,5 @@
 import random
 
-word_list = ['apple', 'banana', 'cherry', 'peach', 'mango']
-
 class Hangman:
     ''' 
     The Hangman Class represents the game of Hangman.
@@ -21,7 +19,7 @@ class Hangman:
         
         Paramaters:
         - word_list: A list of words to choose from.
-        - num_lives: The initial number of lives for the player (defualt is 5).
+        - num_lives: The initial number of lives for the player (default is 5).
         '''
         self.word_list = word_list
         self.num_lives = num_lives
@@ -96,8 +94,7 @@ class Hangman:
         '''
         while True:
             guess = input('Guess a letter: ')
-
-            # Check that the guess is a single alphabetical character
+            guess = guess.lower()  # Convert the guess to lowercase
             if not guess.isalpha() or len(guess) != 1:
                 print("Invalid letter. Please, enter a single alphabetical character.")
             elif guess in self.list_of_guesses:
@@ -123,10 +120,9 @@ def play_game(word_list):
             break
         elif game.num_letters > 0:
             game.ask_for_input()
-
         else:
             print('Congratulations, you won the game!')
             break
 
-
-play_game(word_list)
+if __name__ == '__main__':
+    play_game(['apple', 'banana', 'cherry', 'peach', 'mango'])

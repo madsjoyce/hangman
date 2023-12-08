@@ -1,5 +1,6 @@
 import random
 
+
 class Hangman:
     ''' 
     The Hangman Class represents the game of Hangman.
@@ -121,10 +122,8 @@ def play_game(word_list):
             break
         elif game.num_letters > 0:
             game.ask_for_input()
-
         else:
             print('Congratulations, you won the game!')
             break
-
-
+word_list = ['apple', 'banana', 'cherry', 'peach', 'mango']
 play_game(word_list)
